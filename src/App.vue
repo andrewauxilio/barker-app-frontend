@@ -1,9 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
-      <div class="d-flex align-center"></div>
-    </v-app-bar>
-
+    <Navbar />
     <v-content>
       <router-view />
     </v-content>
@@ -11,11 +8,13 @@
 </template>
 
 <script>
-export default {
-  name: "App",
+import Navbar from "./components/Main/Navbar";
+import Sidebar from "./components/Main/Sidebar";
 
-  data: () => ({
-    //
-  })
+export default {
+  components: {
+    Navbar,
+    Sidebar
+  }
 };
 </script>

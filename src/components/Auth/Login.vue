@@ -4,29 +4,15 @@
       <v-flex xs12 sm8 md4>
         <v-card class="elevation-12">
           <v-toolbar color="primary" dark flat>
-            <v-toolbar-title>Register form</v-toolbar-title>
+            <v-toolbar-title>Login form</v-toolbar-title>
           </v-toolbar>
           <v-card-text>
             <v-form>
               <v-text-field
-                label="First Name"
-                name="firstname"
+                label="Login"
+                name="login"
                 prepend-icon="person"
                 type="text"
-              ></v-text-field>
-
-              <v-text-field
-                label="Last Name"
-                name="lastname"
-                prepend-icon="person"
-                type="text"
-              ></v-text-field>
-
-              <v-text-field
-                label="Email"
-                name="email"
-                prepend-icon="email"
-                type="email"
               ></v-text-field>
 
               <v-text-field
@@ -36,18 +22,11 @@
                 prepend-icon="lock"
                 type="password"
               ></v-text-field>
-
-              <v-text-field
-                label="Confirm Password"
-                name="password"
-                prepend-icon="lock"
-                type="password"
-              ></v-text-field>
             </v-form>
           </v-card-text>
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn color="primary">Register</v-btn>
+            <v-btn color="primary">Login</v-btn>
           </v-card-actions>
         </v-card>
       </v-flex>
